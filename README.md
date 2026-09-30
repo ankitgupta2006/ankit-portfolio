@@ -16,17 +16,7 @@ A polished, responsive personal portfolio built with **plain HTML, CSS, and Java
 
 No build step, framework, package manager, or server configuration is required.
 
-### Using Python
-
-```bash
-python3 -m http.server 3000
-```
-
-Open <http://localhost:3000> in your browser.
-
-### Using VS Code
-
-Open the folder in VS Code and launch it with the **Live Server** extension.
+Open the folder in VS Code and launch it with the **Live Server** extension. Then open the local URL shown by the extension in your browser.
 
 ## Customize the site
 
