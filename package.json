@@ -1,0 +1,9 @@
+{
+  "name": "ankit-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 3000 --bind 0.0.0.0",
+    "check": "python3 -c \"from pathlib import Path; import json; html=Path('index.html').read_text(); data=json.loads(Path('manus-routes.json').read_text()); assert all(x in html for x in ['id=\\\"about\\\"','id=\\\"skills\\\"','id=\\\"project\\\"','id=\\\"education\\\"','id=\\\"contact\\\"']); assert data['routes'][0]['path'] == '/'; print('static checks passed')\""
+  }
+}
