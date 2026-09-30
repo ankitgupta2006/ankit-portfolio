@@ -9,8 +9,6 @@ A polished, responsive personal portfolio built with **plain HTML, CSS, and Java
 - `script.js` — mobile navigation and expandable project brief
 - `campus-skill-exchange-preview.webp` — project preview image
 - `favicon.svg` — lightweight site icon
-- `manus-routes.json` — route declaration for static hosting
-- `.nojekyll` — allows GitHub Pages to serve files directly
 
 ## Run locally
 
