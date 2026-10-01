@@ -4,9 +4,10 @@ A polished, responsive personal portfolio built with **plain HTML, CSS, and Java
 
 ## Included files
 
-- `index.html` — semantic page structure and editable content
-- `style.css` — complete visual system, responsive layout, and animations
-- `script.js` — mobile navigation and expandable project brief
+- `index.html` — clean homepage with introduction, skills, project summary, education, and contact
+- `project.html` — detailed Campus Skill Exchange case study
+- `style.css` — shared visual system and responsive layout
+- `script.js` — shared mobile navigation and project brief interaction
 - `campus-skill-exchange-preview.webp` — project preview image
 - `favicon.svg` — lightweight site icon
 - `README.md` — setup and customization guide
@@ -20,7 +21,7 @@ Open the folder in VS Code and launch it with the **Live Server** extension. The
 
 ## Customize the site
 
-1. Edit the text and links in `index.html`.
+1. Edit the text and links in `index.html` and `project.html`.
 2. Change colors and spacing in the `:root` section of `style.css`.
 3. Replace `campus-skill-exchange-preview.webp` with another image, keeping the same filename or updating the `<img>` path.
 4. Update the GitHub links, email, education, skills, and project URLs before publishing.

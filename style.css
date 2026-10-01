@@ -299,3 +299,20 @@ footer a { color: var(--muted); }
 }
 
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; transition: none !important; } }
+
+
+/* Simple homepage summary and separate project page */
+.summary-card .project-main { padding-bottom: 32px; }
+.summary-card .project-preview { border-bottom: 0; }
+.project-page-header { padding: 70px 0 52px; border-bottom: 1px solid var(--line); }
+.project-page-header h1 { margin: 18px 0 22px; }
+.project-page-header .hero-intro { margin-bottom: 0; }
+.back-link { display: inline-flex; color: var(--muted); font: 400 11px 'DM Mono'; margin-bottom: 52px; }
+.back-link:hover { color: var(--accent); }
+.project-detail-section { border-top: 0; padding-top: 66px; }
+.project-detail-section .project-card { margin-top: 0; }
+@media (max-width: 640px) {
+  .project-page-header { padding-top: 52px; }
+  .back-link { margin-bottom: 38px; }
+  .project-detail-section { padding-top: 50px; }
+}
