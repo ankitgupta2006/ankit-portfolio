@@ -11,6 +11,7 @@ A polished, responsive personal portfolio built with **plain HTML, CSS, and Java
 - `favicon.svg` — lightweight site icon
 - `README.md` — setup and customization guide
 - `.gitignore` — common local files excluded from Git
+- `.github/workflows/pages.yml` — automatic GitHub Pages deployment
 
 ## Run locally
 
@@ -28,11 +29,12 @@ Open the folder in VS Code and launch it with the **Live Server** extension. The
 
 ## Deploy on GitHub Pages
 
-1. Create a GitHub repository.
-2. Push these files to the repository's `main` branch.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select `main` and the `/ (root)` folder, then click **Save**.
-6. GitHub will provide the live URL after the Pages workflow finishes.
+This repository is configured for automatic deployment through GitHub Actions.
+
+1. Push changes to the `main` branch.
+2. GitHub Actions runs the workflow in `.github/workflows/pages.yml`.
+3. Open the repository's **Actions** tab to see the deployment status.
+4. After the first successful run, the site is available at:
+   <https://ankitgupta2006.github.io/ankit-portfolio/>
 
 Because this is a static site, no server, database, environment variables, or build pipeline is required.
