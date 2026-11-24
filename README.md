@@ -41,6 +41,19 @@ The current version is a front-end prototype. A production version would require
 - [View the source repository](https://github.com/ankitgupta2006/campus-skill-exchange)
 - [Read the project brief](project.html)
 
+## GitHub activity
+
+<div align="center">
+
+<img width="70%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ankitgupta2006&theme=tokyonight" alt="GitHub contribution activity" />
+
+<br><br>
+
+<img width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ankitgupta2006&theme=tokyonight" alt="GitHub statistics" />
+<img width="42%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ankitgupta2006&theme=tokyonight" alt="Languages across repositories" />
+
+</div>
+
 ## Contact
 
 - **Email:** [guptaankit05321@gmail.com](mailto:guptaankit05321@gmail.com)
